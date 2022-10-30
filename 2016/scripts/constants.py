@@ -1,0 +1,1 @@
+INPUT_DIR = "/Users/paulsalcuni/code/projects/aoc/2016/input/"
