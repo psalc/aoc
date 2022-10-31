@@ -1,2 +1,3 @@
 # Don't check in my input data
 */input/*
+*pycache*
