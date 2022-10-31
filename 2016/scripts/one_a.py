@@ -10,7 +10,7 @@ with open(filepath, 'r') as f:
 
 # First, get the number of blocks away from starting point
 # Initiate starting state
-state = {
+STARTING_STATE = {
     "facing": "N",
     "coords": [0, 0]
 }
@@ -80,4 +80,8 @@ def get_manhattan_distance(destination_coords: Tuple[int, int], starting_coords:
     from scipy.spatial.distance import cityblock
     return cityblock(destination_coords, starting_coords)
 
-print(get_manhattan_distance(get_destination(state, data)))
+def main():
+    print(get_manhattan_distance(get_destination(STARTING_STATE, data)))
+
+if __name__ == "__main__":
+    main()
