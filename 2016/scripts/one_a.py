@@ -3,7 +3,7 @@ from constants import INPUT_DIR
 from typing import Tuple, Dict, List, Any
 
 # Read in input
-filepath = INPUT_DIR + "1a.txt"
+filepath = INPUT_DIR + "1.txt"
 
 with open(filepath, 'r') as f:
     data = f.read().split(', ')
