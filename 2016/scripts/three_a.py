@@ -21,7 +21,7 @@ def count_triangles(triangles: List[Tuple[int, int, int]]) -> int:
     return sum(test_results)
 
 def main():
-    raise NotImplementedError
+    print(count_triangles(triangles))
 
 if __name__ == "__main__":
-    print(count_triangles(triangles))
+    main()
