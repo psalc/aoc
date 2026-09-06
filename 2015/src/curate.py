@@ -1,5 +1,4 @@
 from pathlib import Path
-from typing import List
 import logging
 
 INPUT_DIR = Path(__file__).parent.parent / "inputs"
