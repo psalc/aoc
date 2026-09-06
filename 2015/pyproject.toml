@@ -1,7 +1,7 @@
 [project]
 name = "2015"
 version = "0.1.0"
-description = "Add your description here"
+description = "A journey back in time to writing code by hand"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = []
