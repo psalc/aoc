@@ -1,4 +1,4 @@
-import curate
+from aoc import read_input
 from collections import Counter 
 
 def landing_floor(text: str) -> int:
@@ -28,7 +28,7 @@ def first_basement_entry(text: str) -> int:
 
 
 def main():
-    input = curate.read_input(1)
+    input = read_input(1)
     print(f"Santa ends up on: {landing_floor(input)}")
     print(f"Santa first enters the basement at position {first_basement_entry(input)}")
 

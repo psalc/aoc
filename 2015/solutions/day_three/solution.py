@@ -1,4 +1,4 @@
-import curate
+from aoc import read_input
 
 def move(pos: tuple[int, int], dir: str) -> tuple[int, int]:
     move_map = {
@@ -39,7 +39,7 @@ def santa_and_robot(path: str):
 
 
 def main():
-    path = curate.read_input(3).strip()
+    path = read_input(3).strip()
     santa_houses = lone_santa(path)
     both_houses = santa_and_robot(path)
 

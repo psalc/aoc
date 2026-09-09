@@ -1,4 +1,4 @@
-import curate
+from aoc import read_input
 
 def surface_area(l, w, h) -> int:
     return 2*l*w + 2*w*h + 2*h*l
@@ -19,7 +19,7 @@ def required_ribbon(l, w, h) -> int:
     return smallest_perimeter(l, w, h) + bow_length(l, w, h)
 
 def main():
-    input = curate.read_input(2)
+    input = read_input(2)
     lines = input.splitlines()
     dimensions = [tuple(map(int, line.split('x'))) for line in lines]
     print(f"Total square feet of wrapping paper required: {sum([required_paper(*d) for d in dimensions])}")

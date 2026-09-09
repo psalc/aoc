@@ -1,2 +1,1 @@
-def main() -> None:
-    print("Hello from aoc!")
+from .curate import read_input
